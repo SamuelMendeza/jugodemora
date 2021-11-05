@@ -1,7 +1,73 @@
+index.css: 
+/* CSS= cascade StyleSheet=hoja de estilo en cascada*/
+/*colores: sistema hexadecimal 
+0= Ausencia de colgroup
+f= total color 
+(0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F)*/
 * {
-    font-family: sans-serif;
+    background-color: #88E0EF ;
+    color: #090910;
+    display: block;
 }
-img{
+#nombre {
+    font-family: sans-serif;
+
+    color: rgb(150,30,0)
+}
+.titulo {
+    background-color: #6D9886;
+    width: 33.1%;
+    display: inline-block;
+   /* margin: 0px;*/
+    border: 0px;
+    /* padding: 0px; */
+    border-radius: 10px; 
+    padding-left: 1em;
+    margin: 20px;
+}
+img {
     height: 300px;
     width: 300px;
+}
+.mendez-uno {
+    display: inline-block;
+    background-color: darkslategrey;
+    color: seashell;
+    border-radius: 9px;
+    padding-left: 0.5em;
+    margin: 0.5em;
+}
+.mendez-uno:hover {
+    background-color: #3B185F;
+    color: #FEC260;
+}
+.mendez-dos {
+    
+    background-color:teal;
+    color: seashell;
+    font-weight: bold;
+    border-radius: 9px;
+    padding-left: 0.5em;
+    margin: 0.5em;
+
+}
+.mendez-dos:hover {
+    background-color: #3B185F;
+    color: #FEC260;
+}
+h1:hover {
+    background-color: red;
+}
+.texto {
+    width: 90%;
+    display: flexbox;
+    margin: 0.5em;
+}
+.izquierda {
+    width: 48%;
+    display: inline-block;
+}
+.derecha {
+    width: 48%;
+    display: inline-block;
 }
